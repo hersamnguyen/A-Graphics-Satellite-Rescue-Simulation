@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.params=theCanvas\ theSpaceStation
+comment0.target=Shuttle(Canvas,\ SpaceStation)
+comment0.text=\n\ Constructor\ create\ a\ Shuttle\ object\:\n\ \ \ \ Uses\ canvas\ when\ creating\ the\ shuttle\ object\n\ \ \ \ The\ shuttle\ object\ needs\ a\ color,\ an\ initial\ position,\n\ \ \ \ an\ initial\ direction\ of\ motion,\ and\ 5\ fuel\ cells\n\ \ \ \ \n\ @param\ canvas\ the\ canvas\ on\ which\ to\ render\ the\ shuttle\n
+comment1.params=theDirection
+comment1.target=void\ setDirection(java.lang.String)
+comment1.text=\n\ To\ Do\:\ Complete\ setDirection\ a\ simple\ mutator\n\ \ \ \ \n\ @param\ theDirection\ "up"\ or\ "down".\n
+comment2.params=
+comment2.target=void\ moveSmallDistance()
+comment2.text=\n\ moveShuttle\ move\ the\ shuttle\ 10\ pixels\ up\ or\ down\n\ \ \ \ in\ the\ direction\ specified\ by\ the\ direction\ instance\ field\n
+comment3.params=
+comment3.target=FuelCell\ launchCell()
+comment3.text=\n\ launchCell\ if\ there\ are\ more\ cells,\ create\ a\ new\ fuelCell\ and\ launch\ it\n\ from\ the\ vertex\ of\ the\ shuttle.\ One\ is\ deducted\ from\ the\ number\ of\ available\n\ cells.\n\ \n\ @return\ cell\ a\ launched\ FuelCell\ object\ or\ null\ if\ the\ shuttle\ is\ out\ of\ cells\n
+comment4.params=
+comment4.target=void\ dock()
+comment4.text=\n\ dock\ 1)\ move\ the\ shuttle\ toward\ the\ space\ station\ and\ dock.\n\ \ \ \ \ \ 2)\ Wait\ three\ seconds.\n\ \ \ \ \ \ 3)\ move\ the\ shuttle\ horiaontally\n\ \ \ \ \ \ \ \ \ \ \ \ back\ to\ the\ left\ side\ of\ the\ window.\n\ \ \ \ \ \ Pattern\ the\ docking\ operation\ after\ the\ similar\ operation\n\ \ \ \ \ \ in\ the\ FuelCell\ class.\n
+comment5.params=
+comment5.target=int\ getNumberFuelCells()
+comment5.text=\n\ getNumberFuelCells\ a\ simple\ accessor\n\ To\ do\:\ rewrite\ the\ body\ of\ this\ method\n\ @return\ the\ number\ of\ fuel\ cells\ remaining\n
+numComments=6

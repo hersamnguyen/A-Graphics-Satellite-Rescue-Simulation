@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Controller()
+comment0.text=\n\ Class\ constructor.\ Doesn't\ do\ much.\n
+comment1.params=
+comment1.target=void\ simulate()
+comment1.text=\n\ startSimulation\ creates\ the\ simulation\ environment\ and\ runs\ the\ simulation\n\ using\ an\ indefinite\ while\ loop\ that\ looks\ at\ the\ state\ of\ the\ simulation\n\ and\ acts\ accordingly\ each\ time\ through\ the\ loop.\n
+comment2.params=ke
+comment2.target=void\ keyTyped(java.awt.event.KeyEvent)
+comment3.params=ke
+comment3.target=void\ keyReleased(java.awt.event.KeyEvent)
+comment3.text=\n\ Ignore\ methods\ below\ this\ point\n
+comment4.params=ke
+comment4.target=void\ keyPressed(java.awt.event.KeyEvent)
+numComments=5
